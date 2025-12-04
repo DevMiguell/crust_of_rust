@@ -1,1 +1,1 @@
-# Studying Rust using the YouTube channel https://www.youtube.com/@jonhoo as a reference.
+Studying Rust using the YouTube channel https://www.youtube.com/@jonhoo as a reference.
