@@ -24,6 +24,6 @@ impl Sorter for Bubblesort {
 #[test]
 fn bubblesort_works() {
     let mut things = vec![4, 2, 3, 1];
-    super::sort::<_, Bubblesort>(&mut things);
+    Bubblesort::sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4])
 }

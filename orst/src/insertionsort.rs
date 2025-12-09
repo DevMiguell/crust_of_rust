@@ -22,6 +22,6 @@ impl Sorter for Insertionsort {
 #[test]
 fn insertionsort_works() {
     let mut things = vec![4, 2, 3, 1];
-    super::sort::<_, Insertionsort>(&mut things);
+    Insertionsort::sort(&mut things);
     assert_eq!(things, &[1, 2, 3, 4])
 }
