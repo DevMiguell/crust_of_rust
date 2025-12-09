@@ -1,3 +1,23 @@
-/target
-/.cursor
-/CACHEDIR.TAG
+# Pastas de build do Rust (em qualquer lugar do projeto)
+target/
+**/target/
+
+# Arquivos de cache
+CACHEDIR.TAG
+**/CACHEDIR.TAG
+
+# Arquivos do Cursor IDE
+.cursor/
+
+# Arquivos de compilação
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.rlib
+*.rmeta
+*.d
+
+# Arquivos de lock (opcional - alguns projetos preferem versionar Cargo.lock)
+# Cargo.lock
